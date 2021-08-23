@@ -1,4 +1,4 @@
-# Comandos curiosos de Linux
+# Comandos de Linux
 ## chattr<p>
  
 Cambia los atributos de un fichero en un sistema de ficheros de Linux, podemos usarlo para proteger archivos o directorios de "desastres no deseados" y otras cosas más interantes. Sigue leyendo y lo averiguarás.<p>
