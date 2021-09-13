@@ -1,11 +1,14 @@
 # Comandos de Linux
 ## shred<p>
  Borrado completo de fichero o particiones.<p>
- Borra el fichero pero antes le pega 50 pasadas para dejarlo niquelao.<p>
-```Usage: shred -vun 50``` 
+```Usage: shred [OPCIÓN]... FICHERO...```<p>
+  Ejemplo: borra el fichero pero antes le pega 50 pasadas para dejarlo niquelao.<p>
+
+```  shred -vun 50 file``` 
  - '-v' Verbose
  - '-n' sobrescribe
  - '-u' borra<p>
+  
   ¿te atreves? <p>
 ```shred -vu /dev/sda1```
  
