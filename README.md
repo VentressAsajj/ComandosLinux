@@ -1,4 +1,14 @@
 # Comandos de Linux
+## shred<p>
+ Borrado completo de fichero o particiones.<p>
+ Borra el fichero pero antes le pega 50 pasadas para dejarlo niquelao.<p>
+```Usage: shred -vun 50``` 
+ - '-v' Verbose
+ - '-n' sobrescribe
+ - '-u' borra<p>
+  ¿te atreves? <p>
+```shred -vu /dev/sda1```
+ 
 ## chattr<p>
  
 Cambia los atributos de un fichero en un sistema de ficheros de Linux, podemos usarlo para proteger archivos o directorios de "desastres no deseados" y otras cosas más interantes. Sigue leyendo y lo averiguarás.<p>
